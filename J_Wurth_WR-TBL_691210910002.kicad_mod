@@ -1,0 +1,160 @@
+(footprint "J_Wurth_WR-TBL_691210910002"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Series 2109 - 2.54 mm Horiz. Entry, body 5.48x6.5x8.5mm, https://www.we-online.com/en/components/products/datasheet/691210910002?ki")
+	(tags "THT Horizontal")
+	(property "Reference" "REF**"
+		(at 1.27 -4.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fcde85e4-4829-4bb9-92b0-212eaada70bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "J_Wurth_WR-TBL_691210910002"
+		(at 1.27 4.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6a3ba17-3a39-4311-aca6-091b1af12908")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fea98bf-0b3d-49b8-b621-01a9a3d98c01")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a6d890a-78f8-4b25-869a-d647957e6e72")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.65 -3.835)
+		(end 0.65 -3.835)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6623d382-9130-4a50-9e2d-81322a9d243b")
+	)
+	(fp_rect
+		(start -1.58 -3.36)
+		(end 4.12 3.36)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "abb25855-792a-41e5-8ad9-9a310da8e60d")
+	)
+	(fp_rect
+		(start -1.97 -3.75)
+		(end 4.51 3.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "653fe039-8d26-470c-b8b6-a1cf6dd74f34")
+	)
+	(fp_line
+		(start -0.65 -3.25)
+		(end 0 -2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "64c631d6-48ca-4251-8de1-f38ad86199d0")
+	)
+	(fp_line
+		(start 0.65 -3.25)
+		(end 0 -2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0b57ed16-f8c7-44e5-9591-c7b223298d61")
+	)
+	(fp_rect
+		(start -1.47 -3.25)
+		(end 4.01 3.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7c3c714e-3ea9-445d-9fcb-5ffb417366f7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8d3bc47a-b380-46af-9669-3b4d1f5a2b12")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b7738c4e-01ef-4bbe-bd37-cfd0763d9cd4")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "24de7b74-088d-48d2-904b-cf617527f1b7")
+	)
+	(embedded_fonts no)
+	(model "${WE_3DMODEL_DIR}/Connector_THT_Wurth.3dshapes/J_Wurth_WR-TBL_691210910002.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
